@@ -42,7 +42,7 @@ const About = () => {
 
                 </p>
 
-                <a href='https://drive.google.com/file/d/19ZGuEJTCPq7tdj9GotE_88PDop_FNlmU/view?usp=sharing' 
+                <a href='https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:22ee5b5f-f261-3eab-b08d-e3719eda3c04' 
                     download="CV"><Btn content="Download CV"/>
                 </a>
             </div>

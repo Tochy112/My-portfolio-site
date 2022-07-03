@@ -1,0 +1,79 @@
+.about-parent{
+    background-color: #F8F9FA;
+    padding: 90px 150px; 
+}
+.about-div p{
+    text-align: justify;
+    margin-bottom: 60px;
+}
+.about-div .about .line{
+    background-color: aqua;
+    width: 130px;
+    height: 4px;
+}
+.about-parent .about{
+    margin: 40px 0;
+}
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.about-wrapper .about-div{
+    margin-right: 100px;
+}
+.about-wrapper .skill-div{
+    margin-right: 100px;
+
+}
+.about-wrapper .skill{
+    margin: 40px 0;
+}
+.about-wrapper .skill .line{
+    background-color: aqua;
+    width: 130px;
+    height: 4px;
+}
+.about-div p img{
+   width: 50px;
+}
+
+@media ( max-width: 820px){
+    .about-parent{
+        background-color: #F8F9FA;
+        padding: 20px 50px; 
+    }
+    .about-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        margin-right: 50px;
+    }
+    .about-div p{
+        text-align: left;
+        margin-bottom: 60px;
+    }
+   
+    .about-wrapper .about-div{
+        margin-right: 0px;
+    }
+    .about-wrapper .skill-div{
+        margin-right: 130px;
+        margin-top: 20px;
+        
+    }
+}
+
+@media (max-width: 420px){
+    .about-wrapper .skill-div{
+        margin-right: 80px;
+        
+    }
+}
+
+@media (max-width: 280px){
+    .about-wrapper .skill-div{
+        margin-left: 50px;
+        
+    }
+}

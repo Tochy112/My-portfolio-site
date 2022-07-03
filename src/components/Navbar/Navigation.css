@@ -1,0 +1,18 @@
+.navbar-parent{
+    margin-bottom: 55px;
+    
+}
+.nav-link:hover{
+    color: rgb(22, 104, 104) !important;
+}
+.navbar-parent img{
+    width: 40px;
+}
+
+
+@media ( min-width: 1208px){
+    .nav-links{
+        margin-left: 650px !important;
+    
+     }
+}

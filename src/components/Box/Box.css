@@ -1,0 +1,28 @@
+.project-box-wrapper{
+    margin: auto;
+}
+.project-box{
+    height: 250px;
+    width: 250px;
+    border: 1px solid aqua;
+    margin: 15px 0;
+    
+}
+.project-box .logo-div{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(48, 150, 150);
+    text-align: center;
+    
+}
+.project-box .logo-div img{
+    margin-top: 40px;
+    max-width: 180px;
+}
+.project-box p{
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

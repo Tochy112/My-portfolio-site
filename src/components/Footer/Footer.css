@@ -1,0 +1,22 @@
+.footer{
+    background-color: #F8F9FA;
+    padding: 30px 50px; 
+}
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.footer hr{
+    color: #309696;
+    padding: 2px;
+}
+.icon-div img{
+    width: 40px;
+}
+
+@media (max-width: 420px){
+    .footer-icons{
+        display: flex;
+        flex-direction: column;
+    }
+}

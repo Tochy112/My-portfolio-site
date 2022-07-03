@@ -4,7 +4,7 @@ import './Box.css'
 const Box = ({logo, name, link}) => {
   return (
     <div className='project-box-wrapper'>
-        <a href={link} target="_blank" rel="noreferrer">
+        <a href={link} >
         <div className='project-box'>
             <div className='logo-div'>
                 <img src={logo} alt="logo" />

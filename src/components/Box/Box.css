@@ -1,6 +1,9 @@
 .project-box-wrapper{
     margin: auto;
 }
+.box-link{
+    text-decoration: none;
+}
 .project-box{
     height: 250px;
     width: 250px;
@@ -25,4 +28,14 @@
     margin-left: 20px;
     margin-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 280px){
+    .project-box{
+        height: 250px;
+        width: 220px;
+        border: 1px solid aqua;
+        margin: 15px auto;
+        
+    }
 }

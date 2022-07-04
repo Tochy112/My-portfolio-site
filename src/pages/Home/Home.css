@@ -52,3 +52,17 @@
     }
    
 }
+
+@media (max-width: 280px){
+    .Home-wrapper{
+        background-color: #F8F9FA;
+        padding: 70px 100px; 
+    }
+    .Home-wrapper h2{
+        font-size: 40px;
+        margin: 40px 0;
+    }
+    .home-div .img-div{
+        width: 250px;
+    }
+}

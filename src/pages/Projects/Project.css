@@ -32,4 +32,9 @@
         margin: auto;
        
     }
+
+    .project-parent .project-boxes{
+        justify-content: center;
+    }
 }
+

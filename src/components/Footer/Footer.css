@@ -1,6 +1,6 @@
 .footer{
     background-color: #F8F9FA;
-    padding: 30px 50px; 
+    padding: 10px 50px 40px 50px; 
 }
 .footer-icons{
     display: flex;
@@ -9,6 +9,12 @@
 .footer hr{
     color: #309696;
     padding: 2px;
+}
+.Email-icon-div p{
+    margin-bottom: 0;
+}
+.Email-icon-div img{
+    width: 50px;
 }
 .icon-div img{
     width: 40px;
@@ -19,4 +25,15 @@
         display: flex;
         flex-direction: column;
     }
+}
+
+@media (max-width: 280px){
+    .footer{
+        background-color: #F8F9FA;
+        padding: 10px 30px 40px 30px; 
+    }
+    .icon-div img{
+        width: 35px;
+    }
+    
 }

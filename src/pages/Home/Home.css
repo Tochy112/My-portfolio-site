@@ -1,7 +1,6 @@
 .Home-wrapper{
     background-color: #F8F9FA;
     padding: 70px 150px; 
-    animation: Home 1.5s;
 }
 .Home-wrapper h2{
     font-size: 50px;
@@ -17,6 +16,7 @@
 .home-div{
     display: flex;
     justify-content: space-between;
+    animation: Home 1.5s;
 }
 .home-div .write-up{
     margin-top: 75px;
@@ -32,22 +32,25 @@
     margin-right: 10px;
 }
 .home-div .icon-div img{
-    animation: HD 1.5s linear infinite;
+    animation: HD 2s linear infinite;
 }
 
 
 @keyframes HD {
-    from{
+    0%{
         transform: rotate(0deg);
     }
-    to{
+    50%{
         transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0deg);
     }
 }
 
 @keyframes Home {
     from{
-        transform: translateY(-100px);
+        transform: translateY(-30px);
     }
     to{
         transform: translateY(0);

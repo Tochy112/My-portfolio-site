@@ -16,7 +16,6 @@
 .home-div{
     display: flex;
     justify-content: space-between;
-    animation: Home 1.5s;
 }
 .home-div .write-up{
     margin-top: 75px;
@@ -48,14 +47,7 @@
     }
 }
 
-@keyframes Home {
-    from{
-        transform: translateY(-30px);
-    }
-    to{
-        transform: translateY(0);
-    }
-}
+
 
 
 @media ( max-width: 920px){

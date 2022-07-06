@@ -20,7 +20,7 @@
     width: 40px;
 }
 
-@media (max-width: 420px){
+@media (max-width: 520px){
     .footer-icons{
         display: flex;
         flex-direction: column;

@@ -1,22 +1,3 @@
-/* .navbar-parent{
-    margin-bottom: 55px;
-    
-}
-.nav-link:hover{
-    color: rgb(22, 104, 104) !important;
-}
-.navbar-parent img{
-    width: 40px;
-}
-
-
-@media ( min-width: 1208px){
-    .nav-links{
-        margin-left: 650px !important;
-    
-     }
-} */
-
 .navbar-parent img{
     width: 40px;
 }
@@ -78,6 +59,22 @@ nav .icon-burger {
 }
 nav .icon-burger .line {
 	width: 30px;
+	height: 5px;
+	background-color: #00FFFF;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+nav .icon-burger #line2 {
+	width: 20px;
+	height: 5px;
+	background-color: #212529;;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+nav .icon-burger #line3 {
+	width: 10px;
 	height: 5px;
 	background-color: #212529;;
 	margin: 5px;

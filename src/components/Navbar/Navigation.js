@@ -21,8 +21,8 @@ const Navigation = () => {
                 </ul>
                 <label for="nav-toggle" class="icon-burger">
                     <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
+                    <div class="line" id="line2"></div>
+                    <div class="line" id="line3"></div>
                 </label>
             </nav>
             </Navbar>

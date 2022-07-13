@@ -104,7 +104,7 @@ nav .icon-burger .line {
 		height: auto;
 		flex-direction: column;
 		justify-content: space-evenly;
-		background-color: rgb(248, 249, 250);
+		background-color: #F8F9FA;
 		overflow: hidden;
 		box-sizing: border-box;
 		transition: all .5s ease-in-out;

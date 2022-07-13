@@ -24,7 +24,7 @@ const Footer = () => {
 
         <div className="footer-icons">
 
-            <p> &copy; Ukwuoma Tochukwu {date}</p>
+            <p> &copy; Ukwuoma Tochukwu, {date + "."}</p>
             <div className='icon-div'>
                 <a href="https://twitter.com/tochy112"><img src={Twitter} alt="Twitter" /></a>
                 <a href="https://www.linkedin.com/in/ukwuoma-tochukwu-052462223/">

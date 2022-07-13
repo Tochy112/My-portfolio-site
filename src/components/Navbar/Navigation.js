@@ -1,37 +1,32 @@
 import React from 'react'
 import './Navigation.css'
-import {Container, Navbar, Nav} from 'react-bootstrap'
+import {Container, Navbar} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import Btn from '../../components/Button/Btn'
 import Dev from '../../images/developer-icon.svg'
 
 const Navigation = () => {
   return (
     <div className="navbar-parent">
-        <Navbar bg="light" expand="lg"  fixed="top" >
-            
-            <Container className='nav-parent' >
-                <Navbar.Brand href="/"><img src={Dev} alt="dev-icon"/> Tochy</Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
-
-                <div className='nav-links '>
-                    <Nav
-                    className="me-auto my-2 my-lg-0"
-                    style={{ maxHeight: '100px' }}
-                    navbarScroll
-                >
-                    <Nav.Link href="/" className="nav-link">Home</Nav.Link>
-                    <Nav.Link href="/About" className="nav-link">About</Nav.Link>
-                    <Nav.Link href="/Projects" className="nav-link">Projects</Nav.Link>
-                    <Nav.Link href="/Contact"><Btn content="Contact Me"/></Nav.Link>
-                    
-                    
-                    
-                    </Nav>
-                </div>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+        <Container>
+            <Navbar>
+            <nav>
+                <input id="nav-toggle" type="checkbox" />
+                <Link className='logo' to='/'> <img src={Dev} alt="dev-icon"/> Tochy</Link>
+                <ul class="links">
+                    <li className='nav-link'><Link to="/">Home</Link></li>
+                    <li className='nav-link'><Link to="/About">About</Link></li>
+                    <li className='nav-link'><Link to="/Projects">Projects</Link></li>
+                    <li className='nav-link'><Link to="/Contact"><Btn content="Contact Me"/></Link></li>
+                </ul>
+                <label for="nav-toggle" class="icon-burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </label>
+            </nav>
+            </Navbar>
+        </Container>
     </div>
   )
 }

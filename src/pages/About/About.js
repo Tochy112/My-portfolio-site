@@ -3,6 +3,7 @@ import {Container} from 'react-bootstrap'
 import Btn from '../../components/Button/Btn'
 import Tool from '../../images/tool.svg'
 import Happy from '../../images/happy.svg'
+import CV from '../../download/Tochukwu-CV.pdf'
 import './About.css'
 
 const About = () => {
@@ -42,7 +43,7 @@ const About = () => {
 
                 </p>
 
-                <a href='https://drive.google.com/file/d/19ZGuEJTCPq7tdj9GotE_88PDop_FNlmU/view?usp=sharing' 
+                <a href={CV} 
                     download="CV"><Btn content="Download CV"/>
                 </a>
             </div>

@@ -12,6 +12,12 @@ nav {
 	height: 100px;
 	background-color: #F8F9FA;
 }
+.light nav {
+	background-color: #F8F9FA;
+}
+.dark nav {
+	background-color: #212529;
+}
 nav .logo {
 	float: left;
 	width: 40%;
@@ -21,6 +27,9 @@ nav .logo {
 	font-size: 20px;
     text-decoration: none;
     color: #212529;
+}
+.dark nav .logo{
+	color: #F8F9FA;
 }
 
 nav .links {
@@ -43,8 +52,18 @@ nav .links a {
 	color: #212529;
 	text-decoration: none;
 }
+.dark nav .links li a{
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #F8F9FA;
+}
 nav .links a:hover{
     color: rgb(22, 104, 104);
+}
+.dark nav .links a:hover{
+    color: aqua;
 }
 #nav-toggle {
 	position: absolute;
@@ -69,7 +88,7 @@ nav .icon-burger .line {
 nav .icon-burger #line2 {
 	width: 20px;
 	height: 5px;
-	background-color: #212529;;
+	background-color: #212529;
 	margin: 5px;
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
@@ -82,7 +101,10 @@ nav .icon-burger #line3 {
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
 }
-
+.dark nav .icon-burger #line2,
+.dark nav .icon-burger #line3{
+	background-color: #F8F9FA;
+}
 
 /* MEDIA QUERY STARTS */
 @media screen and (max-width: 768px) {
@@ -102,14 +124,24 @@ nav .icon-burger #line3 {
 		height: auto;
 		flex-direction: column;
 		justify-content: space-evenly;
-		background-color: #F8F9FA;
 		overflow: hidden;
 		box-sizing: border-box;
-		transition: all .5s ease-in-out;
+		transition: bottom .5s ease-in-out;
 	}
+	.light nav .links{
+		background-color: #F8F9FA;
+	} 
+	.dark nav .links{
+		background-color: #212529;
+	} 
 	nav .links li a{
 		font-size: 20px;
 		text-transform:uppercase;
+	}
+	.dark nav .links li a{
+		font-size: 20px;
+		text-transform:uppercase;
+		color: #F8F9FA;
 	}
 	nav :checked ~ .links {
 		bottom: 0;

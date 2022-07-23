@@ -6,6 +6,7 @@ import Happy from '../../images/happy.svg'
 import CV from '../../download/Tochukwu-CV.pdf'
 import './About.css'
 
+
 const About = () => {
   return (
     <div className="about-parent">
@@ -18,7 +19,6 @@ const About = () => {
                     <h2 >About Me</h2>
                     <div className='line'/>
                 </div>
-                
                 <p>
                     I'm Ukwuoma Tochukwu, a Frontend web Developer 
                     based in Imo State, Nigeria. <br /> <br />

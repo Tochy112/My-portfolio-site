@@ -29,6 +29,9 @@
     margin-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.dark .project-box p{
+    color: #F8F9FA;
+}
 
 @media (max-width: 280px){
     .project-box{

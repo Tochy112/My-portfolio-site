@@ -36,9 +36,9 @@ const Footer = () => {
                 </a>
 
                 <a href="https://github.com/Tochy112">
-                 <img src={GitHub} alt="GitHub" />
+                 <img src={GitHub} alt="GitHub"  className="git"/>
                 </a>
-                
+               
             </div>
             
         </div>

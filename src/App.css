@@ -13,8 +13,27 @@
   }
 }
 
+.light{
+  background-color: #F8F9FA;
+}
+.dark{
+  background-color: #212529;
+  color: #F8F9FA;
+}
+.light .moon{
+  display: none;
+}
+.dark .sun{
+  display: none;
+}
+
+#darkMode{
+  border: none;
+  background-color: transparent;
+
+}
 .App-header {
-  background-color: #F8F9FA;  
+  /* background-color: #F8F9FA;   */
   /* min-height: 100vh;
   display: flex;
   flex-direction: column;

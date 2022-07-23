@@ -1,5 +1,4 @@
 .footer{
-    background-color: #F8F9FA;
     padding: 10px 50px 40px 50px; 
 }
 .footer-icons{
@@ -18,6 +17,11 @@
 }
 .icon-div img{
     width: 40px;
+    margin-right: 5px;
+}
+.dark .icon-div .git{
+    background-color: #F8F9FA;
+    border-radius: 50%;
 }
 
 @media (max-width: 520px){

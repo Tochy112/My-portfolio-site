@@ -11,7 +11,7 @@ const Home = () => {
         <Container fluid>
             <div className='home-div'>
                 <div className='write-up'>
-                   <p> Hi Dear,  
+                   <p> Hi There,  
                         <span className="icon-div">
                             <img src={Wave} alt="Hello" />
                         </span> 

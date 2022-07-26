@@ -119,14 +119,14 @@ nav .icon-burger #line3 {
 		left: 0;
 		right: 0;
 		top: 100px;
-		bottom: 100%;
-		width: auto;
+		bottom: 0;
+		width: 0;
 		height: auto;
 		flex-direction: column;
 		justify-content: space-evenly;
 		overflow: hidden;
 		box-sizing: border-box;
-		transition: bottom .5s ease-in-out;
+		transition: width .5s ease-in-out;
 	}
 	.light nav .links{
 		background-color: #F8F9FA;
@@ -145,6 +145,7 @@ nav .icon-burger #line3 {
 	}
 	nav :checked ~ .links {
 		bottom: 0;
+		width: 50%;
 	}
 	nav .icon-burger {
 		display: block;

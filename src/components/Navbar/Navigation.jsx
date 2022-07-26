@@ -16,10 +16,10 @@ const Navigation = () => {
                 <input id="nav-toggle" type="checkbox" />
                 <Link className='logo' to='/'> <img src={Dev} alt="dev-icon"/></Link>
                 <ul class="links">
-                    <li className='nav-link'><a href="/">Home</a></li>
-                    <li className='nav-link'><a href="/About">About</a></li>
-                    <li className='nav-link'><a href="/Projects">Projects</a></li>
-                    <li className='nav-link'><a href="/Contact"><Btn content="Contact Me"/></a></li>
+                    <li className='nav-link'><Link to="/">Home</Link></li>
+                    <li className='nav-link'><Link to="/About">About</Link></li>
+                    <li className='nav-link'><Link to="/Projects">Projects</Link></li>
+                    <li className='nav-link'><Link to="/Contact"><Btn content="Contact Me"/></Link></li>
                     <Mode />
                 </ul>
                     

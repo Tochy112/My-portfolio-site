@@ -1,5 +1,9 @@
 .project-box-wrapper{
     margin: auto;
+    transition: all .5s ease-in-out;
+}
+.project-box-wrapper:hover{
+    transform: translateY(-10px);
 }
 .box-link{
     text-decoration: none;
@@ -9,14 +13,15 @@
     width: 250px;
     border: 1px solid aqua;
     margin: 15px 0;
-    
+    border-radius: 5px;
 }
 .project-box .logo-div{
     height: 150px;
     width: 100%;
     background-color: rgb(48, 150, 150);
     text-align: center;
-    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .project-box .logo-div img{
     margin-top: 40px;
@@ -31,6 +36,22 @@
 }
 .dark .project-box p{
     color: #F8F9FA;
+}
+.git-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.git-div img{
+    width: 35px;
+    align-self: center;
+    text-align: center;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+.dark .git-div img{
+    border-radius: 50%;
+    background-color: #F8F9FA;
 }
 
 @media (max-width: 280px){

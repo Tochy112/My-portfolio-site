@@ -4,6 +4,7 @@ import {Container} from 'react-bootstrap'
 import Btn from '../../components/Button/Btn'
 import FE from '../../images/FE-guy.svg'
 import Wave from '../../images/waving-hand.png'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
                    <h2>Ukwuoma Tochukwu</h2>
                    <p> Frontend Web Developer</p>
 
-                    <a href='/Contact'><Btn content="Hire Me"/></a>
+                    <Link to='/Contact'><Btn content="Hire Me"/></Link>
                 </div>
                 <div className="img-div">
                     <img src={FE} alt="Developer" />

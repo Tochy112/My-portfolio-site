@@ -8,6 +8,7 @@ import Mode from '../../components/mode/DarkMode'
 
 
 const Navigation = () => {
+
   return (
     <div className="navbar-parent">
         <Container>
@@ -16,15 +17,30 @@ const Navigation = () => {
                 <input id="nav-toggle" type="checkbox" />
                 <Link className='logo' to='/'> <img src={Dev} alt="dev-icon"/></Link>
 
-                <ul class="links">
-                    <li className='nav-link'><Link to="/">Home</Link></li>
-                    <li className='nav-link'><Link to="/About">About</Link></li>
-                    <li className='nav-link'><Link to="/Projects">Projects</Link></li>
-                    <li className='nav-link'><Link to="/Contact"><Btn content="Contact Me"/></Link></li>
+                <ul class="links" id='links' name="nav-toggle">
+                
+                    <li className='nav-link'>
+                        <Link to="/" > 
+                          Home
+                        </Link>
+                    </li>
+                    
+                    <li className='nav-link'>
+                        <Link to="/About" 
+                            className='link'>
+                            About
+                        </Link>
+                    </li>
+                    <li className='nav-link'>
+                        <Link to="/Projects">Projects</Link>
+                    </li>
+                    <li className='nav-link'>
+                        <Link to="/Contact">
+                            <Btn content="Contact Me"/>
+                        </Link>
+                    </li>
                     <Mode />
                 </ul>
-            
-              
                     
                 <label for="nav-toggle" class="icon-burger">
                     <div class="line"></div>
@@ -33,7 +49,6 @@ const Navigation = () => {
                 </label>
             
             </nav>
-            
             </Navbar>
         </Container>
     </div>

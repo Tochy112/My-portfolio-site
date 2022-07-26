@@ -15,6 +15,7 @@ const Navigation = () => {
             <nav>
                 <input id="nav-toggle" type="checkbox" />
                 <Link className='logo' to='/'> <img src={Dev} alt="dev-icon"/></Link>
+
                 <ul class="links">
                     <li className='nav-link'><Link to="/">Home</Link></li>
                     <li className='nav-link'><Link to="/About">About</Link></li>
@@ -22,6 +23,8 @@ const Navigation = () => {
                     <li className='nav-link'><Link to="/Contact"><Btn content="Contact Me"/></Link></li>
                     <Mode />
                 </ul>
+            
+              
                     
                 <label for="nav-toggle" class="icon-burger">
                     <div class="line"></div>
@@ -30,6 +33,7 @@ const Navigation = () => {
                 </label>
             
             </nav>
+            
             </Navbar>
         </Container>
     </div>

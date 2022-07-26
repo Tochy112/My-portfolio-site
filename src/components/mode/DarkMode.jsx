@@ -25,6 +25,7 @@ const DarkMode = () => {
         body.classList.replace(darkTheme, lightTheme);
         e.target.classList.remove(clickedClass);
         localStorage.setItem("theme", "light");
+        body.classList.add("blur")
         theme = lightTheme; 
       } else {
 

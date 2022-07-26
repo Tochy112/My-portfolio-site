@@ -112,6 +112,7 @@ nav .icon-burger #line3 {
 		float: none;
 		width: auto;
 	}
+	
 	nav .links {
 		float: none;
 		position: fixed;
@@ -132,7 +133,8 @@ nav .icon-burger #line3 {
 		background-color: #F8F9FA;
 	} 
 	.dark nav .links{
-		background-color: #212529;
+		background-color: rgb(33, 37, 41, 0.8);
+		backdrop-filter:blur(5px) ;
 	} 
 	nav .links li a{
 		font-size: 20px;

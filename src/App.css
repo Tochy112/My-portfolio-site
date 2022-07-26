@@ -25,9 +25,6 @@
 .dark .sun{
   display: none;
 }
-.blur{
-  filter: blur(5px);
-}
 #darkMode{
   border: none;
   background-color: transparent;

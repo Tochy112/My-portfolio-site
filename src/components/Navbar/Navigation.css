@@ -130,11 +130,12 @@ nav .icon-burger #line3 {
 		transition: width .5s ease-in-out;
 	}
 	.light nav .links{
-		background-color: #F8F9FA;
+		background-color: rgb(248, 249, 250, 0.5);
+		backdrop-filter: blur(8px);
 	} 
 	.dark nav .links{
-		background-color: rgb(33, 37, 41, 0.8);
-		backdrop-filter:blur(5px) ;
+		background-color: rgb(33, 37, 41, 0.5);
+		backdrop-filter: blur(8px);
 	} 
 	nav .links li a{
 		font-size: 20px;
@@ -147,7 +148,7 @@ nav .icon-burger #line3 {
 	}
 	nav :checked ~ .links {
 		bottom: 0;
-		width: 50%;
+		width: 100%;
 	}
 	nav .icon-burger {
 		display: block;

@@ -3,7 +3,7 @@ import {Container} from 'react-bootstrap'
 import Btn from '../../components/Button/Btn'
 import Tool from '../../images/tool.svg'
 import Happy from '../../images/happy.svg'
-import CV from '../../download/Resume-Ukwuoma-Tochukwu.pdf'
+import CV from '../../CV/Resume-Ukwuoma-Tochukwu.pdf'
 import './About.css'
 
 

@@ -1,6 +1,12 @@
 .about-parent{
     /* background-color: #F8F9FA; */
     padding: 90px 150px; 
+    margin-top: 70px;
+
+}
+
+.dark .about-div h2{
+    color: #F8F9FA;
 }
 .about-div p{
     text-align: justify;

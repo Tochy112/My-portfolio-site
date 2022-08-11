@@ -1,4 +1,6 @@
-
+.error-parent{
+    margin-top: 75px;
+}
 .error-parent .img-div{
     margin: auto;
     max-width: max-content;

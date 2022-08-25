@@ -135,17 +135,17 @@
     .nav-toggle-active{
         display: block;
     }
-    .nav-links-mobile{
-        display: flex;
-        text-align: center;
+    .nav-links-mobile {
         position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
 		z-index: 10;
 		left: 0;
 		right: 0;
-		top: 100px;
-		height: 100vh;
-		flex-direction: column;
-		justify-content: space-evenly;
+		top: 90px;
+		height: 90vh;
+        margin: 0 auto;
         background-color: #F8F9FA;
     }
     .dark .nav-links-mobile {

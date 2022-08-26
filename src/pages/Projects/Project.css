@@ -1,8 +1,7 @@
 .project-parent{
-    /* background-color: #F8F9FA; */
     padding: 30px 50px; 
     margin-top: 75px;
-
+    font-family: 'Poppins', sans-serif;
 }
 .project-parent .project-boxes{
     display: flex;

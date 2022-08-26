@@ -1,5 +1,7 @@
 .footer{
     padding: 10px 50px 40px 50px; 
+    font-family: 'Poppins', sans-serif;
+
 }
 .footer-icons{
     display: flex;

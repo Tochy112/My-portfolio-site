@@ -1,6 +1,7 @@
 .project-box-wrapper{
     margin: auto;
     transition: all .5s ease-in-out;
+    font-family: 'Poppins', sans-serif;
 }
 .project-box-wrapper:hover{
     transform: translateY(-10px);
@@ -32,7 +33,6 @@
     color: #000;
     margin-left: 20px;
     margin-top: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .dark .project-box p{
     color: #F8F9FA;

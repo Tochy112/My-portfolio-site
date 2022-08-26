@@ -1,8 +1,7 @@
 .contact-wrapper{
-    /* background-color: #F8F9FA; */
     padding: 60px 150px; 
     margin-top: 75px;
-
+    font-family: 'Poppins', sans-serif;
 }
 .contact-div{
     display: flex;

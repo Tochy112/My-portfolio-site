@@ -2,10 +2,11 @@ import React from 'react'
 import Box from '../../components/Box/Box'
 import {Container} from 'react-bootstrap'
 import './Project.css'
-import ToDo from '../../images/todo-logo.svg'
-import Piggy from '../../images/piggy-logo.svg'
-import Jackofruitty from '../../images/JackoFruity (1).PNG'
-import Chart from '../../images/chart.svg'
+import ToDo from '../../images/do_it.PNG'
+import Piggy from '../../images/piggy-vest.PNG'
+import Jackofruitty from '../../images/jacko_fruitty.PNG'
+import Chart from '../../images/admin-dashboard.PNG'
+import Estate from '../../images/real_estate.PNG'
 
 const Project = () => {
   return (
@@ -20,30 +21,36 @@ const Project = () => {
        
 
         <div className='project-boxes'>
-            <Box logo={ToDo}
-             name="ToDo-list app" 
-             link="https://week2-todo-api-app.vercel.app"
-            //  github= "https://github.com/Portfolio-React-Team-2/week2-todo-api-app"
+            <Box logo={Estate} 
+            name="Real Estate" 
+            link="https://tochy-real-estate.netlify.app"
+            github="https://github.com/Tochy112/real-estate-site"
             />
-            
+
+              
             <Box logo={Piggy} 
             name="piggyvest-clone" 
-            link="https://campwork01piggyvestclone.netlify.app"
-            // github="https://github.com/Tochy112/PiggyVest-clone"
+            link="https://tochy-piggy-vest.netlify.app"
+            github="https://github.com/Tochy112/piggyVest"
+            />
+
+            <Box logo={ToDo}
+             name="ToDo" 
+             link="https://week2-todo-api-app.vercel.app"
+             github= "https://github.com/Portfolio-React-Team-2/week2-todo-api-app"
             />
 
             <Box logo={Chart} 
             name="Admin-dashboard" 
-            link="https://admin-21.netlify.app/"
-            // github ="https://github.com/Tochy112/Admin-21"
+            link="https://admin-21.netlify.app"
+            github ="https://github.com/Tochy112/Admin-21"
             />
             
             <Box logo={Jackofruitty} 
-            name="Jackofruitty fruitStore" 
+            name="FruitStore" 
             link="https://fruitty.netlify.app"
-            // github="https://github.com/Tochy112/Fruitty"
+            github="https://github.com/Tochy112/Fruitty"
             />
-
         </div>
         </Container>
        

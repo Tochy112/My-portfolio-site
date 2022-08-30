@@ -1,6 +1,6 @@
 import React from 'react'
 import './Box.css'
-// import GitHub from '../../images/github-logo.svg'
+import GitHub from '../../images/github-logo.svg'
 
 const Box = ({logo, name, link, github}) => {
   return (
@@ -13,9 +13,9 @@ const Box = ({logo, name, link, github}) => {
             <div className="git-div">
                 <p>{name}</p>
                 
-                {/* <a href={github}>
+                <a href={github}>
                  <img src={GitHub} alt="GitHub"  className="git"/>
-                </a> */}
+                </a>
             </div>
         </div>
         </a>

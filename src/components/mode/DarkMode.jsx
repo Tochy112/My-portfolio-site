@@ -2,6 +2,7 @@ import React from 'react'
 import '../../App.css'
 import Sun from '../../images/sun-icon.svg'
 import Moon from '../../images/moon-icon.svg'
+import "./DarkMode.css"
 
 const DarkMode = () => {
     let clickedClass = "clicked";
@@ -44,7 +45,7 @@ const DarkMode = () => {
             onClick={(e) => switchTheme(e)}
         >
           <img class="moon" src={Moon} alt="moon"></img> 
-           <img class="sun" src={Sun} alt="sun"></img>
+          <img class="sun" src={Sun} alt="sun"></img>
         </button>
     </div>
   )

@@ -7,6 +7,7 @@ import Piggy from '../../images/piggy-vest.PNG'
 import Jackofruitty from '../../images/jacko_fruitty.PNG'
 import Chart from '../../images/admin-dashboard.PNG'
 import Estate from '../../images/real_estate.PNG'
+import Crappo from '../../images/Crappo.PNG'
 
 const Project = () => {
   return (
@@ -21,6 +22,12 @@ const Project = () => {
        
 
         <div className='project-boxes'>
+            <Box logo={Crappo} 
+            name="CRAPPO" 
+            link="https://tochy-crypto.netlify.app/"
+            github="https://github.com/Tochy112/cryptopage"
+            />
+
             <Box logo={Estate} 
             name="Real Estate" 
             link="https://tochy-real-estate.netlify.app"

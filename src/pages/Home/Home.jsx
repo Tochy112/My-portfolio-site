@@ -2,7 +2,9 @@ import React from 'react'
 import './Home.css'
 import {Container} from 'react-bootstrap'
 import Btn from '../../components/Button/Btn'
-import FE from '../../images/FE-guy.svg'
+// import FE from '../../images/FE-guy.svg'
+import FE from '../../images/profile-pic.png'
+import FE_Dark from '../../images/pfp-dark.jpg'
 import Wave from '../../images/waving-hand.png'
 import { Link } from 'react-router-dom'
 
@@ -26,7 +28,8 @@ const Home = () => {
                     <Link to='/Contact'><Btn content="Hire Me"/></Link>
                 </div>
                 <div className="img-div">
-                    <img src={FE} alt="Developer" />
+                    <img className='fe-light' src={FE} alt="Developer" />
+                    <img className='fe-dark' src={FE_Dark} alt="Developer" />
                 </div>
             </div>
         </Container>

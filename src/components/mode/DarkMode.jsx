@@ -18,21 +18,21 @@ const DarkMode = () => {
     if (theme === lightTheme || theme === darkTheme) {
       body.classList.add(theme);
     } else {
-      body.classList.add(lightTheme);
+      body.classList.add(darkTheme);
     }
+  
 
     const switchTheme = (e) => {
-      if (theme === darkTheme) {
-        body.classList.replace(darkTheme, lightTheme);
-        e.target.classList.remove(clickedClass);
-        localStorage.setItem("theme", "light");
-        theme = lightTheme; 
-      } else {
-
+      if (theme === lightTheme) {
         body.classList.replace(lightTheme, darkTheme);
         e.target.classList.add(clickedClass);
         localStorage.setItem("theme", "dark");
         theme = darkTheme; 
+      } else {
+        body.classList.replace(darkTheme, lightTheme);
+        e.target.classList.remove(clickedClass);
+        localStorage.setItem("theme", "light");
+        theme = lightTheme; 
     }
 
     
@@ -44,8 +44,8 @@ const DarkMode = () => {
             id="darkMode"
             onClick={(e) => switchTheme(e)}
         >
-          <img class="moon" src={Moon} alt="moon"></img> 
           <img class="sun" src={Sun} alt="sun"></img>
+          <img class="moon" src={Moon} alt="moon"></img> 
         </button>
     </div>
   )

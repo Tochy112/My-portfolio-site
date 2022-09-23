@@ -9,10 +9,10 @@
     top: 0;
     padding: 5%;
     height: 100px;
-    background-color: #F8F9FA;
+    /* background-color: #F8F9FA; */
+    background-color: #FFF;
     z-index: 10;
     font-family: 'Poppins', sans-serif;
-
 }
 
 .logo img{
@@ -146,7 +146,7 @@
 		top: 90px;
 		height: 90vh;
         margin: 0 auto;
-        background-color: #F8F9FA;
+        background-color: #FFF;
     }
     .dark .nav-links-mobile {
         background-color: #212529;
@@ -169,7 +169,6 @@
 
     .dark .nav-links-mobile li a:hover{
         color: aqua;
-    
     }
    
 }

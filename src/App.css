@@ -1,19 +1,8 @@
-.App {
-  text-align: center;
+body{
+  background-color: #212529;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .light{
-  background-color: #F8F9FA;
+  background-color: #FFF;
 }
 .dark{
   background-color: #212529;
@@ -25,21 +14,22 @@
 .dark .sun{
   display: none;
 }
+.light .fe-dark{
+  display: none;
+}
+.dark .fe-light{
+  display: none;
+}
 #darkMode{
   border: none;
   background-color: transparent;
-
 }
 
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fe-dark{
+  border-radius: 50%;
+  border-color: #212529;
 }
+

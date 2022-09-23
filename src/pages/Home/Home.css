@@ -51,7 +51,7 @@
 
 
 
-@media ( max-width: 920px){
+@media ( max-width: 1020px){
     
     .home-div{
         display: flex;
@@ -60,6 +60,7 @@
         align-items: center;
         text-align: center;
         margin: auto;
+        gap: 50px;
     }
     .home-div .img-div img{
         width: 100%;
@@ -75,7 +76,7 @@
 
 @media (max-width: 280px){
     .Home-wrapper{
-        background-color: #F8F9FA;
+        /* background-color: #F8F9FA; */
         padding: 70px 100px; 
     }
     .Home-wrapper h2{

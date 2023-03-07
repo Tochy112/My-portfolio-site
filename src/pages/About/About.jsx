@@ -3,7 +3,7 @@ import {Container} from 'react-bootstrap'
 import Btn from '../../components/Button/Btn'
 import Tool from '../../images/tool.svg'
 import Happy from '../../images/happy.svg'
-import CV from '../../CV/Tochukwu_Resume.pdf'
+import Resume from '../../CV/Tochukwu_Resume.pdf'
 import './About.css'
 
 
@@ -43,7 +43,7 @@ const About = () => {
 
                 </p>
 
-                <a href={CV} 
+                <a href={Resume} 
                     download="Ukwuoma_Tochukwu_CV"><Btn content="Download CV"/>
                 </a>
             </div>

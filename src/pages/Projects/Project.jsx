@@ -1,6 +1,5 @@
 import React from 'react'
 import Box from '../../components/Box/Box'
-import {Container} from 'react-bootstrap'
 import './Project.css'
 import ToDo from '../../images/do_it.PNG'
 import Piggy from '../../images/piggy-vest.PNG'
@@ -12,7 +11,6 @@ import Crappo from '../../images/Crappo.PNG'
 const Project = () => {
   return (
     <div className="project-parent">
-        <Container>
         <div className='project'>
             <h2>Projects</h2>
             <div className='line'/>
@@ -58,9 +56,7 @@ const Project = () => {
             link="https://fruitty.netlify.app"
             github="https://github.com/Tochy112/Fruitty"
             />
-        </div>
-        </Container>
-       
+        </div>       
     </div>
   )
 }

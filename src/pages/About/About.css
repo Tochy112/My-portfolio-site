@@ -1,5 +1,5 @@
 .about-parent{
-    padding: 90px 150px; 
+    padding: 90px 100px; 
     margin-top: 70px;
     font-family: 'Poppins', sans-serif;
 }
@@ -42,7 +42,19 @@
    width: 50px;
 }
 
-@media ( max-width: 820px){
+.skills .chip{
+    margin: 5px;
+}
+.dark .chip{
+    color: #fff !important; 
+}
+.skill-div .skills{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+@media ( max-width: 968px){
     .about-parent{
         padding: 20px 50px; 
     }
@@ -61,23 +73,24 @@
     .about-wrapper .about-div{
         margin-right: 0px;
     }
+    .skill-div{
+        margin: auto;
+    }
     .about-wrapper .skill-div{
-        margin-right: 130px;
-        margin-top: 20px;
+        margin: 10px 0;
+        align-self: flex-start;
         
     }
 }
 
-@media (max-width: 420px){
+/* @media (max-width: 420px){
     .about-wrapper .skill-div{
         margin-right: 80px;
-        
     }
-}
+} */
 
-@media (max-width: 280px){
+/* @media (max-width: 280px){
     .about-wrapper .skill-div{
         margin-left: 50px;
-        
     }
-}
+} */

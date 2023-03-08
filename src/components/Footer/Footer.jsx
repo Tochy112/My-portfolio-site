@@ -17,17 +17,19 @@ const Footer = () => {
         <div className='Email-icon-div'>
             <p>SAY HELLO</p>
             <a href='mailto:ukwuomatochi112@gmail.com'>
-                <img src={Email} alt="Email" />
+                <img src={Email} alt="Email" id='email'/>
             </a>
         </div>
         <div className='line' /> <hr/>
 
         <div className="footer-icons">
 
-            <p> &copy; Ukwuoma Tochukwu, {date + "."}</p>
+            <p> &copy; {date}</p>
             <div className='icon-div'>
-                <a href="https://twitter.com/tochy112"><img src={Twitter} alt="Twitter" /></a>
-                <a href="https://www.linkedin.com/in/ukwuoma-tochukwu-052462223/">
+                <a href="https://twitter.com/tochy_codes">
+                    <img src={Twitter} alt="Twitter" />
+                </a>
+                <a href="https://www.linkedin.com/in/ukwuoma-tochukwu/">
                     <img src={Linkedln} alt="Linkedln" />
                 </a> 
                 

@@ -7,7 +7,7 @@
     right: 0;
     left: 0;
     top: 0;
-    padding: 5%;
+    padding: 5% 5% 3% 5%;
     height: 100px;
     /* background-color: #F8F9FA; */
     background-color: #FFF;
@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-   
+    text-transform: uppercase;
 }
 
 /* for mobile view */
@@ -125,7 +125,7 @@
 
 
 /* Media query */
-@media screen and (max-width: 780px){
+@media screen and (max-width: 864px){
     .nav-links{
         display: none; 
     }

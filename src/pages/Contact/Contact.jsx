@@ -1,5 +1,4 @@
 import React from 'react'
-import {Container} from 'react-bootstrap'
 import Twitter from '../../images/twitter-icon.svg'
 import Linkedln from '../../images/linkedin-icon.svg'
 import WhatSapp from '../../images/whatsapp-icon.svg'
@@ -10,7 +9,6 @@ import './Contact.css'
 const Contact = () => {
   return (
     <div className="contact-wrapper">
-      <Container>
         <div className='contact'>
             <h3 >Contact Me</h3>
             <div className='line'/>
@@ -50,9 +48,6 @@ const Contact = () => {
             <img src={contactLogo} alt="Contact-logo" />
           </div>
         </div>
-      </Container>
-
-
     </div>
   )
 }

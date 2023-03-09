@@ -44,8 +44,8 @@ const DarkMode = () => {
             id="darkMode"
             onClick={(e) => switchTheme(e)}
         >
-          <img class="sun" src={Sun} alt="sun"></img>
-          <img class="moon" src={Moon} alt="moon"></img> 
+          <img className="sun" src={Sun} alt="sun"></img>
+          <img className="moon" src={Moon} alt="moon"></img> 
         </button>
     </div>
   )

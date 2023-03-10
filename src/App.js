@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React from "react"
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navbar/Navigation'
@@ -9,22 +9,22 @@ import Project from './pages/Projects/Project';
 import Footer from './components/Footer/Footer';
 import Contact from './pages/Contact/Contact';
 import  Page404 from './pages/Page-404/PageError';
-// import Loadpage from "./components/Load_page/Loadpage";
-
+import Preloader from "./components/Preloader/Preloader"
 
 function App() {
 
-  const [loading, setLoading] = useState(true)
-  const loader = document.getElementById('loader')
-  loader && setTimeout(() => {
-    loader.style.display = "none"
-    setLoading(false)
-  }, 3000) 
+  // const [loading, setLoading] = useState(true)
+  // const loader = document.getElementById('loader')
+  // loader && setTimeout(() => {
+  //   loader.style.display = "none"
+  //   setLoading(false)
+  // }, 3000) 
 
   return (
-    !loading && (
+    // !loading && (
       <div className ="App-header">
         <BrowserRouter>
+        <Preloader />
           <Navigation />
           <Routes>
             <Route path='/' element={<Home />}/>
@@ -36,7 +36,7 @@ function App() {
           <Footer />
         </BrowserRouter>
       </div>
-    )
+    // )
   );
 }
 

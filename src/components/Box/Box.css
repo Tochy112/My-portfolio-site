@@ -67,6 +67,7 @@
 }
 .child-box .headers .header{
     margin-bottom: 5px;
+    color: #fff;
 }
 
 .project-box-wrapper:hover .child-box{
@@ -81,7 +82,7 @@
     align-items: center;
     text-align: end;
     position: relative;
-    top: 85px;
+    top: 95px;
 }
 .stack-parent .git{
     width: 30px;

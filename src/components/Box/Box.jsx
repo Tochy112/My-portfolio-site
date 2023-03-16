@@ -19,7 +19,7 @@ const Box = ({
 
           <div class="child-box" >
             <div className="headers">
-              <h2>{header}</h2>
+              <h2 className='header'>{header}</h2>
               <p>{content}</p>
             </div>
             

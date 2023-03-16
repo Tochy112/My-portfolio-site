@@ -30,18 +30,13 @@
 }
 
 @media (max-width: 520px){
-    .footer-icons{
-        display: flex;
-        flex-direction: column;
+    .icon-div img{
+        width: 30px;
     }
 }
 
 @media (max-width: 280px){
     .footer{
         padding: 10px 30px 40px 30px; 
-    }
-    .icon-div img{
-        width: 35px;
-    }
-    
+    } 
 }

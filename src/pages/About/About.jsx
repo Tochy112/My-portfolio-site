@@ -29,9 +29,9 @@ const About = () => {
                     <div className='line'/>
                 </div>
                 <p>
-                    I'm Ukwuoma Tochukwu, a front-end web developer based in Imo state, Nigeria. <br /> <br />
+                    I'm a front-end web developer based in Nigeria. <br /> <br />
                     
-                    I create super reponsive web-applications using HTML, CSS, JavaScript, React and other frameworks.  
+                    I create super reponsive web-applications using HTML, CSS, JavaScript, React, Vue and other frameworks.  
                       
                     <span>
                         <br />

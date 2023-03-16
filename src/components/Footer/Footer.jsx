@@ -5,6 +5,7 @@ import Linkedln from '../../images/linkedin-icon.svg'
 import WhatSapp from '../../images/whatsapp-icon.svg'
 import Email from '../../images/mail-icon.png'
 import GitHub from '../../images/github-logo.svg'
+// import FavouriteIcon from "@mui/icons-material/Favourite"
 import './Footer.css'
 
 const Footer = () => {

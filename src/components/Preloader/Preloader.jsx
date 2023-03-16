@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { preLoaderAnim } from "../Animation";
+import { preLoaderAnim } from "../Animation/main";
 import './preloader.css'
 
 const Preloader = () => {

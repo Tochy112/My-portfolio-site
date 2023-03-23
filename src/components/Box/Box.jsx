@@ -8,7 +8,7 @@ import { AvatarGroup } from '@mui/material';
 
 const Box = ({
     logo, content, link, github, header,
-    icon1, icon2
+    icon1, icon2, icon3
   }) => {
   return (
     <div className='project-box-wrapper'>
@@ -33,9 +33,9 @@ const Box = ({
                 <Avatar alt="icons" className='icons'>
                   <img src={icon2} alt="icon" /> 
                 </Avatar>
-                {/* <Avatar alt="icons" className='icons'>
+                <Avatar alt="icons" className='icons'>
                   <img src={icon3} alt="icon" /> 
-                </Avatar> */}
+                </Avatar>
               </AvatarGroup>
              </div>
 

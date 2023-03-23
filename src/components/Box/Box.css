@@ -57,9 +57,12 @@
     width: 375px;
     max-height: 255px;
     border-radius: 5px;
-    display: none;
+    /* display: none; */
     align-items: center;
     text-align: center;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .child-box .headers{
@@ -71,8 +74,9 @@
 }
 
 .project-box-wrapper:hover .child-box{
-    display: block;
-    transition: all .5s ease-in-out;
+    /* display: block; */
+    opacity: 1;
+    visibility: visible;
 }
 
 .stack-parent{

@@ -2,6 +2,7 @@ import React from 'react'
 import Box from '../../components/Box/Box'
 import './Project.css'
 import Piggy from '../../images/piggy-vest.PNG'
+import Archi from '../../images/archi.PNG'
 import Estate from '../../images/real_estate.PNG'
 import Crappo from '../../images/Crappo.PNG'
 import react from "../../images/icons8-react.svg"
@@ -10,6 +11,9 @@ import Taskeet from "../../images/taskeet_grab.PNG"
 import framer from "../../images/framer.png"
 import bootstrap from "../../images/bootstrap.png"
 import vuetify from "../../images/vuetify.svg"
+import html from "../../images/icons8-html-5.svg"
+import css from "../../images/icons8-css3.svg"
+import js from "../../images/icons8-javascript.svg"
 // import json from "../../images/icons8-json.png"
 
 
@@ -35,6 +39,7 @@ const Project = () => {
             content="A landing page of a crypto company"
             icon1={react}
             icon2={framer}
+            icon3={css}
           />
 
           <Box 
@@ -44,6 +49,7 @@ const Project = () => {
             header="REAL ESTATE"
             content="A real estate landing page"
             icon1={react}
+            icon2={css}
           />
 
 
@@ -55,8 +61,22 @@ const Project = () => {
             content="Task tracking application with server storage"
             icon1={vue}
             icon2={vuetify}
+            icon3={css}
           />  
-            
+
+
+          <Box 
+            logo={Archi} 
+            link="https://tochy-archi.netlify.app"
+            github="https://github.com/Tochy112/architect-site"
+            header="ACHI"
+            content="An Architecture and Design website"
+            icon1={html}
+            icon2={css}
+            icon3={js}
+          />
+          
+
           <Box 
             logo={Piggy} 
             link="https://tochy-piggy-vest.netlify.app"
@@ -65,6 +85,7 @@ const Project = () => {
             content="A cloned version of the piggy-vest website"
             icon1={react}
             icon2={bootstrap}
+            icon3={css}
           />
             
         </div>       

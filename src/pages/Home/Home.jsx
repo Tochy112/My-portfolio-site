@@ -4,7 +4,8 @@ import Btn from '../../components/Button/Btn'
 import FE from '../../images/profile-pic.png'
 import FE_Dark from '../../images/pfp-dark.jpg'
 import Wave from '../../images/waving-hand.png'
-import { Link } from 'react-router-dom'
+import {Link} from "react-scroll";
+
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
                 <h2>Ukwuoma Tochukwu</h2>
                 <p> Frontend Web Developer</p>
 
-                <Link to='/Contact'><Btn content="Hire Me"/></Link>
+                <Link to='contact-wrapper'><Btn content="Hire Me"/></Link>
             </div>
             <div className="img-div">
                 <img className='fe-light' src={FE} alt="Developer" />

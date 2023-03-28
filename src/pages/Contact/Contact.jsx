@@ -8,7 +8,7 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div className="contact-wrapper">
+    <section id="contact-wrapper">
         <div className='contact'>
             <h3 >Contact Me</h3>
             <div className='line'/>
@@ -48,7 +48,7 @@ const Contact = () => {
             <img src={contactLogo} alt="Contact-logo" />
           </div>
         </div>
-    </div>
+    </section>
   )
 }
 

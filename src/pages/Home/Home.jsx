@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div className ="Home-wrapper">
+    <section id="Home-wrapper">
         <div className='home-div'>
             <div className='write-up'>
                 <p> Hi There,  
@@ -29,7 +29,7 @@ const Home = () => {
                 <img className='fe-dark' src={FE_Dark} alt="Developer" />
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

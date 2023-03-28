@@ -14,13 +14,14 @@ import vuetify from "../../images/vuetify.svg"
 import html from "../../images/icons8-html-5.svg"
 import css from "../../images/icons8-css3.svg"
 import js from "../../images/icons8-javascript.svg"
+import dash from "../../images/vue-dash.PNG"
 // import json from "../../images/icons8-json.png"
 
 
 const Project = () => {
 
   return (
-    <div className="project-parent">
+    <section id="project-parent">
         <div className='project'>
             <h2>Projects</h2>
             <div className='line'/>
@@ -70,12 +71,22 @@ const Project = () => {
             link="https://tochy-archi.netlify.app"
             github="https://github.com/Tochy112/architect-site"
             header="ACHI"
-            content="An Architecture and Design website"
+            content="An Architecture and Interior Design website"
             icon1={html}
             icon2={css}
             icon3={js}
           />
           
+        
+          <Box 
+            logo={dash} 
+            link="https://tochy-vue-dashboard.netlify.app"
+            github ="https://github.com/Tochy112/vuetify-dashboard"
+            header="VUE-DASH"
+            content="A responsive user dashboard "
+            icon1={vue}
+            icon2={vuetify}
+          />  
 
           <Box 
             logo={Piggy} 
@@ -89,7 +100,7 @@ const Project = () => {
           />
             
         </div>       
-    </div>
+    </section>
   )
 }
 

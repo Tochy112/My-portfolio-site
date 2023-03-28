@@ -1,6 +1,6 @@
-.about-parent{
+#about-parent{
     padding: 90px 100px; 
-    margin-top: 70px;
+    /* margin-top: 20px; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -16,7 +16,7 @@
     width: 130px;
     height: 4px;
 }
-.about-parent .about{
+#about-parent .about{
     margin: 40px 0;
 }
 .about-wrapper{
@@ -28,7 +28,6 @@
 }
 .about-wrapper .skill-div{
     margin-right: 100px;
-
 }
 .about-wrapper .skill{
     margin: 40px 0;
@@ -55,42 +54,40 @@
 
 
 @media ( max-width: 968px){
-    .about-parent{
+    #about-parent{
         padding: 20px 50px; 
     }
     .about-wrapper{
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: left;
-        margin-right: 50px;
+        text-align: center;
+        /* margin-right: 50px; */
     }
     .about-div p{
-        text-align: left;
+        text-align: center;       
         margin-bottom: 60px;
     }
    
     .about-wrapper .about-div{
-        margin-right: 0px;
+        margin: 0;
     }
-    .skill-div{
+    .about-wrapper .skill-div{
+        margin: 0;
+        /* align-self: center; */
+        text-align: center;
+    }
+
+    .about-div .about .line{
         margin: auto;
     }
-    .about-wrapper .skill-div{
-        margin: 10px 0;
-        align-self: flex-start;
-        
+    .about-wrapper .skill .line{
+        margin: auto;
+    }
+
+    .skill-div .skills{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
-
-/* @media (max-width: 420px){
-    .about-wrapper .skill-div{
-        margin-right: 80px;
-    }
-} */
-
-/* @media (max-width: 280px){
-    .about-wrapper .skill-div{
-        margin-left: 50px;
-    }
-} */

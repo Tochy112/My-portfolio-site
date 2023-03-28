@@ -1,16 +1,16 @@
-.Home-wrapper{
+#Home-wrapper{
     padding: 90px 100px; 
     margin-top: 75px;
     font-family: 'Poppins', sans-serif;
 }
-.Home-wrapper h2{
+#Home-wrapper h2{
     font-size: 50px;
     margin: 40px 0;
 }
-.Home-wrapper p{
+#Home-wrapper p{
     font-size: 20px;
 }
-.Home-wrapper p:nth-child(3){
+#Home-wrapper p:nth-child(3){
     margin-bottom: 40px;
 }
 
@@ -75,11 +75,11 @@
 }
 
 @media (max-width: 280px){
-    .Home-wrapper{
+    #Home-wrapper{
         /* background-color: #F8F9FA; */
         padding: 70px 100px; 
     }
-    .Home-wrapper h2{
+    #Home-wrapper h2{
         font-size: 40px;
         margin: 40px 0;
     }

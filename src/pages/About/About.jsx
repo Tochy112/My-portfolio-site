@@ -19,7 +19,7 @@ import git from "../../images/icons8-git.svg"
 
 const About = () => {
   return (
-    <div className="about-parent">
+    <section id="about-parent">
        
         <div className='about-wrapper'>
             <div className='about-div'>
@@ -87,7 +87,7 @@ const About = () => {
             </div>
         </div>        
        
-    </div>
+    </section>
   )
 }
 

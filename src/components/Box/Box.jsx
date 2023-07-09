@@ -7,20 +7,19 @@ import { AvatarGroup } from '@mui/material';
 
 
 const Box = ({
-    logo, content, link, github, header,
-    icon1, icon2, icon3
+    project
   }) => {
   return (
     <div className='project-box-wrapper'>
         <div className='project-box'>
           <div className='logo-div'>
-              <img src={logo} alt="logo" />
+              <img src={project.logo} alt="logo" />
           </div>
 
           <div class="child-box" >
             <div className="headers">
-              <h2 className='header'>{header}</h2>
-              <p>{content}</p>
+              <h2 className='header'>{project.header}</h2>
+              <p>{project.content}</p>
             </div>
             
             <div className="stack-parent">
@@ -28,23 +27,23 @@ const Box = ({
              <div className="stack">
               <AvatarGroup max={4}>
                 <Avatar alt="icons" className='icons'>
-                  <img src={icon1} alt="icon" />  
+                  <img src={project.icon1} alt="icon" />  
                 </ Avatar>
                 <Avatar alt="icons" className='icons'>
-                  <img src={icon2} alt="icon" /> 
+                  <img src={project.icon2} alt="icon" /> 
                 </Avatar>
                 <Avatar alt="icons" className='icons'>
-                  <img src={icon3} alt="icon" /> 
+                  <img src={project.icon3} alt="icon" /> 
                 </Avatar>
               </AvatarGroup>
              </div>
 
 
              <div className="links">
-                <a href={github}>
+                <a href={project.github}>
                   <img src={GitHub} alt="GitHub"  className="git"/>
                 </a>
-                <a href={link} className="box-link" target="_blank" rel="noreferrer">
+                <a href={project.link} className="box-link" target="_blank" rel="noreferrer">
                   <Chip label="DEMO" 
                   variant="outlined"
                   className='chip' 

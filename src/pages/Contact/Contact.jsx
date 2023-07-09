@@ -24,7 +24,7 @@ const Contact = () => {
 
             <hr />
             <div>
-              <a href="https://twitter.com/tochy112"><img src={Twitter} alt="Twitter" /></a>
+              <a href="https://twitter.com/tochy_codes"><img src={Twitter} alt="Twitter" /></a>
             </div>
 
             <hr />

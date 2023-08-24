@@ -6,7 +6,6 @@ import Mode from '../mode/DarkMode'
 import {Link} from "react-scroll";
 import "./Navigation.css"
 
-
 const Navigation = () => {
 
     const [isMobile, setIsMobile] = useState(false)

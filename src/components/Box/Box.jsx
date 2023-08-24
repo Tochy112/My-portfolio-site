@@ -16,7 +16,7 @@ const Box = ({
               <img src={project.logo} alt="logo" />
           </div>
 
-          <div class="child-box" >
+          <div className="child-box" >
             <div className="headers">
               <h2 className='header'>{project.header}</h2>
               <p>{project.content}</p>

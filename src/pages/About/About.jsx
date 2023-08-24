@@ -15,6 +15,7 @@ import vue from "../../images/icons8-vue-js.svg"
 import react from "../../images/icons8-react.svg"
 import mui from "../../images/icons8-material-ui.svg"
 import git from "../../images/icons8-git.svg"
+import ts from "../../images/ts.svg";
 
 
 const About = () => {
@@ -81,7 +82,8 @@ const About = () => {
                         <Chip avatar={<Avatar src={laravel} />} label="Laravel" variant="outlined"className='chip' />
                     </div>
                     <div>
-                        <Chip avatar={<Avatar src={git} />} label="git" variant="outlined"className='chip' />
+                        <Chip avatar={<Avatar src={git} />} label="Git" variant="outlined"className='chip' />
+                        <Chip avatar={<Avatar src={ts} />} label="Ts" variant="outlined"className='chip' />
                     </div>
                 </div>
             </div>

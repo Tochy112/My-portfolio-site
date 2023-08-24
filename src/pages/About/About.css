@@ -1,6 +1,7 @@
 #about-parent{
-    padding: 90px 100px; 
-    /* margin-top: 20px; */
+    padding: 0 100px; 
+    margin-top: 0;
+    margin-bottom: 5rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -49,14 +50,14 @@
 }
 .skill-div .skills{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
 @media ( max-width: 968px){
-    #about-parent{
+    /* #about-parent{
         padding: 20px 50px; 
-    }
+    } */
     .about-wrapper{
         display: flex;
         flex-direction: column;

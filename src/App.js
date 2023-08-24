@@ -3,28 +3,28 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navbar/Navigation'
 import Home from './pages/Home/Home'
-import {BrowserRouter} from 'react-router-dom'
-import About from './pages/About/About';
-import Project from './pages/Projects/Project';
 import Footer from './components/Footer/Footer';
-import Contact from './pages/Contact/Contact';
-// import  Page404 from './pages/Page-404/PageError';
+import  Page404 from './pages/Page-404/PageError';
 import Preloader from "./components/Preloader/Preloader"
-
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 function App() { 
 
   return (
       <div className ="App-header">
         <BrowserRouter>
-        <Preloader />
-          {/* <Route path='*' element={<Page404 />}> */}
+          <Preloader />
+
+          <Routes>
+          <Route path='/' element={
+          <>
             <Navigation />
             <Home />
-            <About />
-            <Project />
-            <Contact />
             <Footer />
-          {/* </Route> */}
+          </>
+          }/>            
+          <Route path='*' element={ <Page404 />} />
+          </Routes>
+          
         </BrowserRouter>
       </div>
     // )

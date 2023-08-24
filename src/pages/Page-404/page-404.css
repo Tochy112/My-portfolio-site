@@ -1,5 +1,8 @@
+.error-page {
+    height: 100vh;
+    overflow-y: hidden;
+}
 .error-parent{
-    margin-top: 75px;
     font-family: 'Poppins', sans-serif;
 }
 .error-parent .img-div{
@@ -10,4 +13,10 @@
 .error-parent .img-div img{
     width: 100%;
     height: 80%;
+}
+.error-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:2rem 2rem 0 2rem;
 }

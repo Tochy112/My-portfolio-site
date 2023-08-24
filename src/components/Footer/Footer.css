@@ -1,5 +1,5 @@
 .footer{
-    padding: 30px ;
+    padding: 0 30px ;
     font-family: 'Poppins', sans-serif;
 }
 .footer-icons{
@@ -15,10 +15,10 @@
 }
 .Email-icon-div img{
     width: 50px;
+    transition: 0.5s all ease;
 }
 .Email-icon-div img:hover{
     transform: translateY(-5px);
-    transition: 0.5s all ease;
 }
 .icon-div img{
     width: 40px;
@@ -33,10 +33,4 @@
     .icon-div img{
         width: 30px;
     }
-}
-
-@media (max-width: 280px){
-    .footer{
-        padding: 10px 30px 40px 30px; 
-    } 
 }

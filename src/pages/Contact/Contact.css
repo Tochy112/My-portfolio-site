@@ -1,6 +1,6 @@
 #contact-wrapper{
-    padding: 90px 100px; 
-    /* margin-top: 20px; */
+    padding: 1rem 100px; 
+    margin: 5rem 0;
     font-family: 'Poppins', sans-serif;
 }
 .contact-div{
@@ -8,8 +8,18 @@
     justify-content: space-between;
     margin: auto;
 }
+.contact-div img {
+    transition: 0.5s all ease;
+}
+.contact-div img:hover{
+    transform: translateY(-5px);
+}
 .dark .contact h3{
     color: #F8F9FA;
+    text-align: center;
+}
+#contact-wrapper .line {
+    margin: auto;
 }
 .contact-logo{
     width: 380px;
@@ -35,9 +45,7 @@
 .contact-div form{
     display: flex;
     flex-direction: column;
-    /* margin: auto 0; */
     gap: 20px;
-    /* justify-content: center; */
 }
 #contact-wrapper #btn1{
     margin-top: 20px;

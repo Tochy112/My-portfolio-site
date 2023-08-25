@@ -55,15 +55,11 @@
 
 
 @media ( max-width: 968px){
-    /* #about-parent{
-        padding: 20px 50px; 
-    } */
     .about-wrapper{
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        /* margin-right: 50px; */
     }
     .about-div p{
         text-align: center;       
@@ -75,7 +71,6 @@
     }
     .about-wrapper .skill-div{
         margin: 0;
-        /* align-self: center; */
         text-align: center;
     }
 
@@ -87,8 +82,10 @@
     }
 
     .skill-div .skills{
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }

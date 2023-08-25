@@ -14,9 +14,11 @@
 .contact-div img:hover{
     transform: translateY(-5px);
 }
+.contact h3 {
+    text-align: center;
+}
 .dark .contact h3{
     color: #F8F9FA;
-    text-align: center;
 }
 #contact-wrapper .line {
     margin: auto;
